@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {applyMiddleware, createStore} from 'redux'
 import { Provider} from 'react-redux'
+import reportWebVitals from './reportWebVitals';
 
 import promisse from 'redux-promise'
 import multi from 'redux-multi'
@@ -19,3 +20,5 @@ ReactDOM.render(
         <App />
     </Provider>
 , document.getElementById('app'))
+
+reportWebVitals();
