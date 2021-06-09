@@ -2,9 +2,12 @@
 Aplicativo de controle de gastos desenvolvido em react/nodejs
 
 Com o node instalado abrir no terminal a pasta backend e digitar 
+
 npm i 
 
-após instalar as dependências digitar npm run dev
+após instalar as dependências digitar 
+
+npm run dev
 
 Manter a janela do terminal aberta
 
