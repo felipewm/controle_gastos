@@ -34,7 +34,7 @@ Fechamento.route('sumario', (req, res, next) => {
         $group: { _id: null, venda: { $sum: "$venda" }, compra: { $sum: "$compra" } }
     }, {
         $project: { _id: 0, venda: 1, compra: 1 }
-    }], (error, result) => {
+    }]).exec((error, result) => {
         if (error) {
             res.status(500).json({ errors: [error] })
         } else {
