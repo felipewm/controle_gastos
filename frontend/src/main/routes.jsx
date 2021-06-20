@@ -11,7 +11,6 @@ export default props => (
             <Route exact path='/' component={Painel} />
             <Route path='/fechamentos' component={Fechamento} />
             <Redirect from='*' to='/' />
-
         </Switch>
     </div>
 ) 
