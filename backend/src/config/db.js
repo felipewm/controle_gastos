@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise
 //{ useNewUrlParser: true })
 
 module.exports = mongoose.connect(
-'mongodb+srv://admin:<password>@cluster0.np5p4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
+'mongodb+srv://admin:admin@cluster0.np5p4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
 { useNewUrlParser: true })
 
 mongoose.Error.messages.general.required= "O atributo '{PATH} é obrigatório'"
